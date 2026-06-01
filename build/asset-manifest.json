@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aura-beans/static/css/main.eb9c5d6b.css",
+    "main.js": "/aura-beans/static/js/main.f4dff963.js",
+    "static/js/787.28cb0dcd.chunk.js": "/aura-beans/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/aura-beans/index.html",
+    "main.eb9c5d6b.css.map": "/aura-beans/static/css/main.eb9c5d6b.css.map",
+    "main.f4dff963.js.map": "/aura-beans/static/js/main.f4dff963.js.map",
+    "787.28cb0dcd.chunk.js.map": "/aura-beans/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb9c5d6b.css",
+    "static/js/main.f4dff963.js"
+  ]
+}

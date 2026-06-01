@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aura Beans - Artisanal Roastery</title>
+</head>
+<body>
+
+<nav class="nav-container">
+    <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+
+    <div id="dropdownMenu" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="Brew.html">Our Brews</a>
+        <a href="gear.html">Gear & Goods</a>
+        <a href="Visit.html">Visit Us</a>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="logo">
+        <img src="logo.png.png" alt="Aura Beans Logo" class="brand-image" style="max-width: 250px;">
+    </div>
+
+    <div class="title">
+        <h1>AURA BEANS</h1>
+        <h2>Artisanal Roastery & Cafe</h2>
+        <p><em>Sustainably sourced, freshly roasted, delivered nationwide.</em></p>
+    </div>
+
+    <hr>
+
+    <div class="bottom">
+        <p>Welcome to Aura Beans. We partner directly with ethical single-origin farms to bring complex, beautifully roasted coffee profiles right to your cup.</p>
+    </div>
+</div>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("dropdownMenu");
+    menu.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>

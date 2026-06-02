@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './App.css'; 
-
+import v60 from "./images/Ceramic Pour-Over V60.png";
+import grinder from "./images/Precision Hand Grinder.png";
+import kettle from "./images/Gooseneck Temperature Kettle.png";
+import logo from "./images/logo.png";
 export default function App() {
   const [activePage, setActivePage] = useState('home');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -228,8 +231,7 @@ function GearView() {
       <div className="item-grid">
         <div className="product-card">
           <div className="img-wrapper">
-            <img src="Ceramic Pour-Over V60.png" alt="Ceramic Coffee Dripper" />
-          </div>
+<img src={v60} alt="Ceramic Coffee Dripper" />          </div>
           <h3>Ceramic Pour-Over V60</h3>
           <p className="product-description">Optimal heat retention design for pristine extraction clarity.</p>
           <div className="card-btn">Explore Gear</div>
@@ -237,8 +239,7 @@ function GearView() {
 
         <div className="product-card">
           <div className="img-wrapper">
-            <img src="Precision Hand Grinder.png" alt="Hand Coffee Grinder" />
-          </div>
+<img src={grinder} alt="Hand Coffee Grinder" />          </div>
           <h3>Precision Hand Grinder</h3>
           <p className="product-description">Stepless conical steel burrs built for uniform grinding mechanics.</p>
           <div className="card-btn">Explore Gear</div>
@@ -246,8 +247,7 @@ function GearView() {
 
         <div className="product-card">
           <div className="img-wrapper">
-            <img src="Gooseneck Temperature Kettle.png" alt="Gooseneck Kettle" />
-          </div>
+<img src={kettle} alt="Gooseneck Kettle" />          </div>
           <h3>Gooseneck Temperature Kettle</h3>
           <p className="product-description">Precision pour flow spout control with counterbalanced base weight.</p>
           <div className="card-btn">Explore Gear</div>
@@ -266,8 +266,7 @@ function VisitView() {
 
       <div className="contact-container">
         <div className="contact-brand-card">
-          <img src="logo.png" alt="Aura Beans Logo" className="contact-logo" />
-        </div>
+<img src={logo} alt="logo" />        </div>
                 <div className="contact-links-list">
           <div className="contact-item">
             <span className="contact-label">Converse</span>

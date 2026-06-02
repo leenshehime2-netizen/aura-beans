@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/aura-beans/static/css/main.eb9c5d6b.css",
-    "main.js": "/aura-beans/static/js/main.f4dff963.js",
+    "main.js": "/aura-beans/static/js/main.a56210bb.js",
     "static/js/787.28cb0dcd.chunk.js": "/aura-beans/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Gooseneck Temperature Kettle.png": "/aura-beans/static/media/Gooseneck Temperature Kettle.874f8a376def0b8679f7.png",
+    "static/media/Precision Hand Grinder.png": "/aura-beans/static/media/Precision Hand Grinder.07cbcdcdba94782527ff.png",
+    "static/media/logo.png": "/aura-beans/static/media/logo.9a20ccf7229717097979.png",
+    "static/media/Ceramic Pour-Over V60.png": "/aura-beans/static/media/Ceramic Pour-Over V60.fdb041a7917775e76887.png",
     "index.html": "/aura-beans/index.html",
     "main.eb9c5d6b.css.map": "/aura-beans/static/css/main.eb9c5d6b.css.map",
-    "main.f4dff963.js.map": "/aura-beans/static/js/main.f4dff963.js.map",
+    "main.a56210bb.js.map": "/aura-beans/static/js/main.a56210bb.js.map",
     "787.28cb0dcd.chunk.js.map": "/aura-beans/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb9c5d6b.css",
-    "static/js/main.f4dff963.js"
+    "static/js/main.a56210bb.js"
   ]
 }
